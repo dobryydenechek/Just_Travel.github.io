@@ -1,0 +1,326 @@
+* { margin: 0; padding: 0; }
+div{
+	position: relative;
+}
+.menu ul{
+	list-style-type: none;
+	text-align: right;
+}
+.menu li{
+	position: absolute;
+	/*text-shadow: #4682B4 0 0 2px;*/
+	margin-right: 10px; 
+	float: left;
+	top: 80px;
+	font-weight: bolder;
+}
+.tel{
+	position: absolute;
+	right: 290px;
+	top: 27px;
+}
+.tel img, .logo img{
+	transition: all 0.3s ease-in-out;
+}
+.tel:hover img{ 
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+ }
+#num{
+	position: absolute;
+	color: black;
+	font-size: 21pt;
+	font-family: 'source_code_proregular';
+	right: 80px;
+	top: 20px;
+}
+.glav_young{
+	background-size: cover;
+  	background-repeat: no-repeat;
+	width: 100%;    
+  	height: 730px;
+  	background-attachment: fixed
+}
+.k{
+	-webkit-filter: brightness(80%);
+	width: 100%;    
+  	height: 730px;
+}
+
+.glav{
+	width: 100%;    
+  	height: 730px;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed
+  	
+}
+img.glav{
+	-webkit-filter: brightness(50%);
+}
+.header{
+  width: 100%;    
+  height: 130px;    
+  background-color: white;  
+  opacity: .6;
+  margin-bottom: 0px; 
+}
+article.block_young{
+	position: absolute;
+  	right: 80%;
+  	top: 300px; 
+}
+p.block_young{
+	border: 1px solid white;
+	background-color: white;
+	opacity: .6;
+	padding: 20px 30px ;
+	position: absolute;
+	color: black;
+	font-size: 50pt;
+	font-family: Courier New, monospace;
+}
+p.block_family{
+	border: 1px solid white;
+	background-color: white;
+	opacity: .8;
+	padding: 20px 80px;
+	position: absolute;
+	color: black;
+	font-size: 50pt;
+	font-family: Courier New, monospace;
+}
+p.block_50{
+	border: 1px solid white;
+	background-color: white;
+	opacity: .6;
+	padding: 20px 80px;
+	position: absolute;
+	color: black;
+	font-size: 50pt;
+	font-family: Courier New, monospace;
+}
+article.block_glav{
+	position: absolute;
+	width: 600px;    
+  	height: 200px;    
+  	background-color: white;
+  	right: 33%;
+  	top: 300px; 
+}
+p.block_glav{
+	position: absolute;
+	color: black;
+	font-size: 40pt;
+	font-family: 'source_code_proregular';
+	top: 30%;
+	left:15%;
+}
+.logo{
+ 	position: absolute;
+ 	left: 50px;
+ 	top: 20px;
+ 	transition: all 0.3s ease-in-out;
+ }
+ .logo:hover img{ 
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+ }
+ #li2{ right: 800px;}
+ #li3{ right: 555px;}
+ #li4{ right: 209px;}
+.menu a:link, .menu a:visited{
+	text-decoration: none;
+	color: black;
+	font-size: 18pt;
+	font-family: Courier New, monospace;
+	/*border: 1px solid black;*/
+	padding: 5px;
+	transition: all 0.3s ease-in-out;
+}
+.menu a:hover, .menu a.active{
+	color: #008080;
+	transition: all 0.3s ease-in-out;
+}
+
+li {
+	list-style-type: none; 
+}
+#osn{
+	background-color:#add8e6;
+	width: 100% ;
+	height: 100%;
+	position: relative;
+	opacity: .9;
+}
+#osn_young{
+	background-color:#dbd7d2;
+	width: 100% ;
+	height: 100%;
+	position: relative;
+	opacity: .9;
+}
+
+#heading{
+	position: absolute; 
+	top: 15px;
+	left: 400px;
+}
+
+
+#name_tour{
+	position: absolute; 
+    top: 70%;
+    left: 60px;
+    text-shadow: lightblue 0 0 5px; 
+    text-align: center; 
+    color: white; 
+    font-size: 35pt; 
+    font-family: Courier New, monospace;
+}
+#name_tour_min{
+	position: absolute; 
+    top: 75%;
+    left: 60px;
+    text-shadow: lightblue 0 0 5px; 
+    text-align: center; 
+    color: white; 
+    font-size: 20pt; 
+    font-family: Courier New, monospace
+}
+#name_young_tour{
+	text-align: center; 
+    color: black; 
+    font-size: 16pt; 
+    font-family: Courier New, monospace;
+    font-weight: bold;
+}
+#description_young_tour{
+	text-align: center; 
+    color: black; 
+    font-size: 16pt; 
+    font-family: Courier New, monospace;
+}
+#img_young_tour{
+	width: 100%;
+}
+.hover_img a.btn_1{
+	opacity: 0;
+}
+.hover_img:hover img{
+	-webkit-filter: brightness(30%);
+	transition: all 0.3s ease-in-out;
+}
+.hover_img img{
+	transition: all 0.3s ease-in-out;
+}
+.hover_img:hover a.btn_1{
+	opacity: 1;
+}
+.btn_1{
+	position: absolute; 
+	font-size: 17pt;
+    top: 35%;
+    left: 25%;
+	border: 2px solid  white;
+	font-style: italic;
+	color: white;
+	border-radius: 4px;
+	letter-spacing: 3px;
+	padding: 15px 40px;
+	margin-bottom: 20px;
+	background-color: transparent;
+	transition: all 0.3s ease-in-out;
+}
+.btn{
+	position: absolute; 
+	font-size: 17pt;
+    top: 85%;
+    left: 60px;
+	border: 2px solid  white;
+	font-style: italic;
+	color: white;
+	border-radius: 4px;
+	letter-spacing: 3px;
+	padding: 15px 40px;
+	margin-bottom: 20px;
+	background-color: transparent;
+	transition: all 0.3s ease-in-out;
+}
+.btn-m{
+	position: absolute; 
+	font-size: 12pt;
+    top: 87%;
+    left: 60px;
+	border: 2px solid  white;
+	font-style: italic;
+	color: white;
+	border-radius: 4px;
+	letter-spacing: 3px;
+	padding: 4px 15px;
+	margin-bottom: 20px;
+	background-color: transparent;
+	transition: all 0.3s ease-in-out;
+}
+.btn:hover, .btn-m:hover, .btn_1:hover{
+	background-color: #51c2b9;
+	color: #fff;
+}
+
+.image_tour{
+	-webkit-filter: brightness(75%);
+}
+.like{position: relative; bottom: 100px;
+    left: 960px;}
+.like-m{position: relative; bottom: 100px;
+left: 430px;}
+.like img, .like-m img{
+	position: absolute; 
+    top: 0%;
+    left: 0%;
+    transition: all 0.3s ease-in-out;
+}
+.like img.second, .like-m img.second{ 
+  opacity:0;
+  filter:alpha (opacity=0);
+  transition: all 0.3s ease-in-out;
+}
+.like:hover img.second, .like-m:hover img.second { 
+  opacity:1;
+  filter:alpha (opacity=100);
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+.like:hover img.first, .like-m:hover img.first { 
+  opacity:1;
+  filter:alpha (opacity=100);
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+.
+.like:hover img.first, .like img.first:hover .like-m:hover img.first, .like-m img.first:hover{ 
+  opacity:0;
+  filter:alpha (opacity=0);
+  transition: all 0.3s ease-in-out;
+}
+.footer{
+	background-color: black;
+	opacity: .4;
+	text-align: center;
+	padding: 60px 0;
+}
+.footer p{
+	font-size: 25px;
+	color: #e0ffff;
+	margin-bottom: 0;
+	padding: 5px;
+	font-family:Courier New, monospace;
+}
+.footer a{
+	color: #e0ffff;
+}
+.href{
+
+	padding: 6px;
+}
+td{position: relative;}
